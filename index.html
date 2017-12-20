@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index Page for avida059 on ocelot</title>
+    <meta http-equiv="content-type" content="text/plain">
+
+    <style>
+      body {background-color: cornsilk;}
+      h1   {color: blue;
+            text-align: center;}
+      li   {background-color: lightblue;
+            font-size: 20px;  
+            border-style: solid; 
+            border-radius: 15px;  
+            height: 35px;
+            width: auto; 
+            padding-top: 5px;  
+            padding-left: 10px;
+            margin: 10px;
+            opacity: 0.6;
+            transition-duration: 0.5s;
+            }
+        
+        li:hover{
+            opacity: 1;
+            height: 45px;
+            padding-top: 10px; 
+            transition-duration: 0.5s;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1>Alejandro Vidal's Index Page for CNT 4713</h1>
+    <ul>
+      <li><a href="cgi-bin/hello.cgi">Echo Headers </a> (Echo some request headers)</li>
+      <li><a href="http://ocelot.aul.fiu.edu:14001/testfile.html">Existent File</a>( Request an Existing File from TCP-server)</li>
+      <li><a href="http://ocelot.aul.fiu.edu:14001/errorfile.ext">Non-Existent File</a>( Request a Non-Existing File from TCP-server)</li>
+      <li><a href="MailScript/mailform.html">Mail Form</a>( Open a Mail Form)</li>
+      <li><a href="FTPclient/ftpc.html">FTP Client</a>( Open a FTP client interface connected to ftp.swfwmd.state.fl.us)</li>
+      <li><a href="Ajax/ajax.html">Show Cities with Ajax </a>( Open an HTML page that uses Ajax)</li>
+      <li><a href="ProxyServer/proxy.html">Proxy Server </a>( Show the interface to request url using proxy serever)</li>
+      <li><a href="http://ocelot.aul.fiu.edu:14005/cookies.html">Show Cookies </a>( Stand-alone web server that handles cookies)</li>
+      <li><a href="SecureMailScript/mailform.html">Secure Mail Form</a>( Open a Mail Form that requires authentification)</li>
+    </ul>
+  </body>
+</html>
