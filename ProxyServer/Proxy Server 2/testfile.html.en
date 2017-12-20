@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exixting File</title>
+    <meta http-equiv="content-type" content="text/plain">
+
+    <style>
+      body {background-color: cornsilk;}
+      h1   {color: blue;
+            text-align: center;}
+      
+    </style>
+
+  </head>
+  <body>
+    <h1>Content File</h1>
+    <h2>This is a File that your Server can handle properly!!! </h2>
+    <br>
+    <br>
+    <a href="http://ocelot.aul.fiu.edu/~avida059/index.html">Back to Index Page </a>
+  </body>
+</html>
