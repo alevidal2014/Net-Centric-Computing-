@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax Example</title>
+    <meta http-equiv="content-type" content="text/plain">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#Spain").click(function(){
+              $("#cityArea").load("Spain.txt");
+          });
+
+          $("#England").click(function(){
+              $("#cityArea").load("England.txt");
+          });
+
+          $("#Holland").click(function(){
+              $("#cityArea").load("Holland.txt");
+          });
+
+          $("#Cuba").click(function(){
+              $("#cityArea").load("Cuba.txt");
+          });
+      });
+    </script>
+
+    <style>
+      body {background-color: cornsilk;}
+      h1   {color: blue;
+            text-align: center;}
+
+      #container {
+        background-color: lightblue;
+        border-style: solid; 
+        border-radius: 15px; 
+        padding-left: 10px;
+
+      }
+
+      #countries{
+        margin-top: 10px;
+        border-width: 2px;
+        border-color: red;
+        
+        display: inline-block;
+      }
+
+      #cities{
+        margin-top: 10px;
+        background-color: white;
+        border-width: 2px;
+        border-color: red;
+        display: inline-block;
+        margin: 10px;
+
+      }
+
+      .country{
+        margin: 2px;
+        margin-bottom: 10px;
+      }
+
+       #name{
+        padding-left: 90px;
+        font-size: 20px;
+
+      }
+      
+    </style>
+
+  </head>
+  <body>
+    <h1>This is an Ajax Example</h1>
+    <div id="container">
+    <div id="name">Cities</div>
+      <div id="countries">
+        <div id="Spain" class="country"> <button>Spain</button></div>
+        <div id="England" class="country"> <button>England</button></div>
+        <div id="Holland" class="country"> <button>Holland</button></div>
+        <div id="Cuba" class="country"> <button>Cuba</button></div>
+      </div>
+      
+      <div id="cities">
+        
+        <textarea rows="10px" cols="50px" id="cityArea"></textarea>
+      </div>
+    <br>
+    <br>
+    <a href="http://ocelot.aul.fiu.edu/~avida059/index.html">Back to Index Page </a>
+  </body>
+</html>
